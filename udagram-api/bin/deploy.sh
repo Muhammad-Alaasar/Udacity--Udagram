@@ -1,4 +1,4 @@
-eb init 
+eb init --region us-east-1
 
 eb use udagram-api-dev
 
