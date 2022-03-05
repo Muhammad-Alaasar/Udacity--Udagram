@@ -1,4 +1,4 @@
-eb deploy udagram-api --platform node.js --region us-east-1
+eb init udagram-api --platform node.js --region us-east-1
 
 eb create --sample udagram-api-dev
 
