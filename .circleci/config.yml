@@ -43,10 +43,10 @@ jobs:
           command: |
             npm run backend:deploy
 workflows:
-  Udagram:
-    jobs:
-      - build
-        filters:
-          branches:
-            only:
-              - main
+    Udagram:
+      jobs:
+        - build:
+            filters:
+              branches:
+                only:
+                  - main
